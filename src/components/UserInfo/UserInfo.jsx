@@ -1,4 +1,4 @@
-const UserInfo = ({ name, tag, location }) => {
+const UserInfo = ({ UserInfo: { name, tag, location } }) => {
   return (
     <>
       <p className="name">{name}</p>

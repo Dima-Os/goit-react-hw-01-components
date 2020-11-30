@@ -1,10 +1,11 @@
 import Description from '../Description/Description';
 import Stats from '../Stats/Stats';
-const Profile = userData => {
+import user from '../../user.json';
+const Profile = () => {
   return (
     <div className="profile">
-      <Description userData={userData} />
-      <Stats userStats={userData.stats} />
+      <Description />
+      <Stats userStats={user} />
     </div>
   );
 };

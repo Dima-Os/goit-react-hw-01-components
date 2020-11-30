@@ -1,10 +1,11 @@
 import Avatar from '../Avatar/Avatar';
 import UserInfo from '../UserInfo/UserInfo';
-const Description = ({ userData: { avatar, name, tag, location } }) => {
+import user from '../../user.json';
+const Description = () => {
   return (
     <div className="description">
-      <Avatar avatar={avatar} name={name} />
-      <UserInfo name={name} tag={tag} location={location} />
+      <Avatar userData={user} />
+      <UserInfo UserInfo={user} />
     </div>
   );
 };
