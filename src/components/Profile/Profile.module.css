@@ -1,0 +1,10 @@
+.profile {
+  padding-top: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(192, 192, 192, 1) 0%,
+    rgba(255, 255, 255, 1) 21%
+  );
+  border: 5px solid #2c2c2c;
+  border-radius: 40px;
+}

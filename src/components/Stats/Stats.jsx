@@ -1,12 +1,11 @@
-// import StatsItem from "../StatsItem/StatsItem"
-// const Stats = ({ userStats: { stats } }) => {
-//   console.log(stats);
-//   return (
-//     <ul className="stats">
-//       {for (const stat of stats) {
-//   console.log('Value: ', hotel[key]);}
-
-//     </ul>
-//   );
-// };
-// export default Stats;
+import StatsItem from '../StatsItem/StatsItem';
+const Stats = ({ userStats }) => {
+  return (
+    <ul className="stats">
+      {Object.keys(userStats).map(el => (
+        <StatsItem key={el} Labeloption={el} quantity={userStats[el]} />
+      ))}
+    </ul>
+  );
+};
+export default Stats;

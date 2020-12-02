@@ -1,0 +1,14 @@
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  transform: translate(-50%);
+  top: 0;
+  left: 50%;
+  transition: all 300ms linear;
+  cursor: pointer;
+}
+.name:hover {
+  color: brown;
+}
