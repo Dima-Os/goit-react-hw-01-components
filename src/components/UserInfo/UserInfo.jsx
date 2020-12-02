@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import s from './UserInfo.module.css';
 
 const UserInfo = ({ UserInfo: { name, tag, location } }) => {
@@ -8,6 +9,14 @@ const UserInfo = ({ UserInfo: { name, tag, location } }) => {
       <p className="location">{location}</p>
     </>
   );
+};
+
+UserInfo.propTypes = {
+  UserInfo: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+  }),
 };
 
 export default UserInfo;
