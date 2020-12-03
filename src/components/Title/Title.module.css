@@ -1,0 +1,9 @@
+.title {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  text-transform: uppercase;
+  padding: 20px;
+  outline: 1px solid black;
+}

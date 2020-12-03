@@ -1,4 +1,4 @@
-.profile {
+.section {
   padding-top: 40px;
   background: linear-gradient(
     180deg,
@@ -9,4 +9,5 @@
   border-radius: 40px;
   box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
     5px 5px 15px 1px rgba(0, 0, 0, 0);
+  margin-bottom: 15px;
 }

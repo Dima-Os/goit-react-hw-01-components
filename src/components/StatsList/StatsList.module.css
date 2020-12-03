@@ -1,0 +1,6 @@
+.statsList {
+  outline: 1px solid black;
+  flex-basis: 600px;
+  display: flex;
+  list-style: none;
+}
