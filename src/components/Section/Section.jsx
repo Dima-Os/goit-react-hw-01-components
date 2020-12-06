@@ -6,6 +6,9 @@ const Section = ({ children }) => {
 };
 
 Section.propTypes = {
-  children: PropTypes.array.isRequired,
+  children: PropTypes.oneOfType([
+    PropTypes.array.isRequired,
+    PropTypes.object.isRequired,
+  ]),
 };
 export default Section;
