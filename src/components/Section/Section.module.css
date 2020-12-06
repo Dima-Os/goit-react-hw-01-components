@@ -1,5 +1,6 @@
 .section {
   padding-top: 40px;
+  padding-bottom: 15px;
   background: linear-gradient(
     180deg,
     rgba(192, 192, 192, 1) 0%,

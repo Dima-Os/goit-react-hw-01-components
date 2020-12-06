@@ -5,9 +5,11 @@ import Stats from './components/Stats/Stats';
 import Title from './components/Title/Title';
 import StatsList from './components/StatsList/StatsList';
 import FriendsList from './components/FriendList/FriendList';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 import user from './user.json';
 import statisticalData from './statistical-data.json';
 import friends from './friends.json';
+import transactions from './transactions.json';
 
 const App = () => {
   return (
@@ -22,6 +24,9 @@ const App = () => {
       </Section>
       <Section>
         <FriendsList friendsData={friends} />
+      </Section>
+      <Section>
+        <TransactionHistory data={transactions} />
       </Section>
     </Container>
   );
