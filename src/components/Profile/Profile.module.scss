@@ -1,0 +1,14 @@
+.name {
+  padding-top: 10px;
+  outline: 1px solid#232323;
+  max-width: 250px;
+  margin: 0 auto;
+  .description {
+    .avatar {
+      margin: 0 auto;
+      width: 150px;
+      border-radius: 50%;
+      border: 1px solid #232323;
+    }
+  }
+}
